@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@android:color/holo_blue_dark"
+    >
+    <ImageView
+        android:layout_width="402dp"
+        android:layout_height="205dp"
+        android:background="@android:color/holo_red_dark"
+        android:src="@drawable/img" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="La Rachaaaaaaaa"
+        android:textSize="30sp"
+        android:background="@android:color/holo_green_light"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_purple"
+        android:textSize="30sp"
+        android:hint="Describe algo"
+        android:layout_gravity="center"
+        />
+</FrameLayout>
